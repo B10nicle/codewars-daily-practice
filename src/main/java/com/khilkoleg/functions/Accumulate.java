@@ -1,17 +1,19 @@
 package com.khilkoleg.functions;
 
+import java.util.Arrays;
+
 public class Accumulate {
 
-    public static String accum(String s) {
+    public static String accumulate(String s) {
 
         char[] charArray = s.toCharArray();
-        for (int i = 0; i < charArray.length; i++) {
-            for (int j = 0; j < charArray[i]; j++) {
-                System.out.print(charArray[i] + "-");
+        for (char c : charArray) {
+            for (int j = 0; j < c; j++) {
+                System.out.print(c + "-");
             }
         }
 
-        return charArray.toString();
+        return Arrays.toString(charArray);
 
     }
 
