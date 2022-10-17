@@ -17,10 +17,13 @@ public class Main {
         //System.out.println(isLove(4, 4));
         //System.out.println(doubleChar("Hello"));
         //System.out.println(noSpace("131 sdqwe 123131 1 12 "));
-        System.out.println(Palindrome.isPalindrome(5154));
         System.out.println(Palindrome.isPalindrome(515));
         System.out.println(Palindrome.isPalindrome(123));
-        System.out.println(Palindrome.isPalindrome(32123));
+        System.out.println(Palindrome.isPalindrome(0));
+        System.out.println(Palindrome.isPalindrome(2));
+        System.out.println(Palindrome.isPalindrome(13));
+        System.out.println(Palindrome.isPalindrome(10));
+        System.out.println(Palindrome.isPalindrome(9));
 
     }
 
