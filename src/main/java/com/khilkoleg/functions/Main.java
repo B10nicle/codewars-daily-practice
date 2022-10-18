@@ -24,6 +24,8 @@ public class Main {
         System.out.println(Palindrome.isPalindrome(13));
         System.out.println(Palindrome.isPalindrome(10));
         System.out.println(Palindrome.isPalindrome(9));
+        System.out.println(Palindrome.isPalindrome(1234621));
+        System.out.println(Palindrome.isPalindrome(1001));
 
     }
 

@@ -7,19 +7,14 @@ package com.khilkoleg.functions;
 public class Palindrome {
     public static boolean isPalindrome(int x) {
         var input = String.valueOf(x).toCharArray();
-        int[] numbers = new int[9];
         int counter = 0;
         int j = 0;
 
-        for (int i = 0; i < numbers.length; i++)
-            numbers[i] = i + 1;
-
-        for (int number : numbers) {
-            if (number == x)
-                return true;
-        }
+        if (x >= 0 && x < 10)
+            return true;
 
         for (int i = input.length - 1; i >= 0; i--) {
+
             if (input[j] != input[i])
                 return false;
 
