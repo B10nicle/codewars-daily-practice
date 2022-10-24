@@ -1,1 +1,1 @@
-# codewars-daily-practice
+## codewars-daily-practice
