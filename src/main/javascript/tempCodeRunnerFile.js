@@ -1,0 +1,1 @@
+console.log(solution(1, 5));
